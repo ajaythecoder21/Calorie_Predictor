@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Home Page</h1>
+    <form action="{% url 'result' %}">
+
+    {% csrf_token %}
+        <label>Calcium: </label>
+        <input type = "text" name = "Calcium"><br><br>
+        <label>Iron: </label>
+        <input type = "text" name = "Iron"><br><br>
+        <label>Sodium: </label>
+        <input type = "text" name = "Sodium"><br><br>
+        <label>Vitamin A: </label>
+        <input type = "text" name = "Vitamin A"><br><br>
+        <label>Vitamin C: </label>
+        <input type = "text" name = "Vitamin C"><br><br>
+        <label>Cholestrol: </label>
+        <input type = "text" name = "Cholestrol"><br><br>
+        <label>Protein: </label>
+        <input type = "text" name = "Protein"><br><br>
+        <label>Carbs: </label>
+        <input type = "text" name = "Carbs"><br><br>
+        <label>Fats: </label>
+        <input type = "text" name = "Fats"><br><br>
+        <label>Sugars: </label>
+        <input type = "text" name = "Sugars"><br><br>
+
+        <input type="submit" name="" value="submit">
+    </form>
+</body>
+</html>
