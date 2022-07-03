@@ -1,9 +1,9 @@
 # Calorie_Predictor
 
-##Goal
+## Goal
 => To be able to Predict Calories based on certain Nutrients and Vitamins for different Foods
 
-##Tools Used:
+## Tools Used:
 Python + Libraries
   - requests 
   - numpy
